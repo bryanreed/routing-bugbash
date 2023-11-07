@@ -27,7 +27,7 @@ staticRedirects:
     to: /gray
     status: 302
   -
-    from: /grey-redirect2/
+    from: /grey-redirect2
     to: /gray
     status: 301
 # adds authentication to your site. Commented out as a policy with the name auth02 must exist
