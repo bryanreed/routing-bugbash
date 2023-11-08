@@ -10,8 +10,8 @@ dynamicRedirects:
   # This is a rewrite because the status code is 200. It also takes advantage of built-in splat support.
   -
     from: /gray2
-    to: /gray2
-    status: 200
+    to: /gray2/index.html
+    status: 302
   # This is a custom redirect because the status code is 3xx.
 staticRedirects:
   -
